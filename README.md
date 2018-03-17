@@ -1,0 +1,2 @@
+# intellij_performance_settings
+Intellij IDE configurationsfor high-performance
