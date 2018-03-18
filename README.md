@@ -13,8 +13,7 @@ VMoptions and properties files are directly usable in the IDE, assuming your har
 
 ## JVM 
 - In –server mode, increasing –Xmx helps IDEA’s caches live longer 
-- Parallel GC helps on multicore machines 
-- However : May cause stability issues. YMMV. 
+- Parallel GC helps on multicore machines but may cause stability issues
 
 ## IDE 
 - Use latest version 
