@@ -3,22 +3,20 @@ Intellij IDE configurations for high-performance.
 VMoptions and properties files are directly usable in the IDE, assuming your hardware can handle it.
 - To add to the IDE: Help -> Edit Custom Properties / Edit Custom VM Options
 
-# More tips_from_Jetbrains_dev_lead: 
-https://www.slideshare.net/intelliyole/intellij-idea-architecture-and-performance
-
-## Performance Tips: System 
+# More Performance tips: 
+## System 
 - IDEA is heavily IO-bound 
 - Do not store sources, caches or system directories on network drives 
 - Disable antivirus scanning for system directory 
 - Regularly run disk defragmenter 
 - Turn off Windows System Restore 
 
-## Performance Tips: JVM 
+## JVM 
 - In –server mode, increasing –Xmx helps IDEA’s caches live longer 
 - Parallel GC helps on multicore machines 
 - However : May cause stability issues. YMMV. 
 
-## Performance Tips: IDE 
+## IDE 
 - Use latest version 
 - Disable unused plugins 
 - Exclude unneeded folders 
@@ -29,6 +27,8 @@ https://www.slideshare.net/intelliyole/intellij-idea-architecture-and-performanc
 - Disable expensive inspections 
 - Disable framework-specific validation on Make 
 - Do not use method breakpoints 
+
+*source - https://www.slideshare.net/intelliyole/intellij-idea-architecture-and-performance*
 
 ## More info and other useful links
 - [Automating Sharing of IDE Settings](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository)
