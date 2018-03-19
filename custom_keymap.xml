@@ -1,12 +1,24 @@
 <keymap version="1" name="custom_keymap" parent="$default">
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f4" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CodeCompletion" />
   <action id="CopyElement" />
+  <action id="Debugger.AddToWatch">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
